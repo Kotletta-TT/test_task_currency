@@ -7,7 +7,7 @@ from sqlalchemy.orm import sessionmaker
 
 TEST_CUR = ["EUR", "USD"]
 
-engine = create_engine('sqlite:///currency.db', echo=True)
+engine = create_engine('sqlite:///db_currency/currency.db', echo=True)
 
 Base = declarative_base()
 
